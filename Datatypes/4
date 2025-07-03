@@ -8,3 +8,5 @@
       $display ("firstname=%s is UNEQUAL to lastname=%s", firstname, lastname);
  end
 endmodule
+
+output :  firstname=Joey is EQUAL to lastname=Joey
