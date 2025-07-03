@@ -1,0 +1,10 @@
+. module tb;
+  string firstname = "";
+  string lastname  = "Joey";
+  initial begin
+    if (firstname == lastname)
+      $display ("firstname=%s is EQUAL to lastname=%s", firstname, lastname);
+    if (firstname != lastname)
+      $display ("firstname=%s is UNEQUAL to lastname=%s", firstname, lastname);
+ end
+endmodule
