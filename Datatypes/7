@@ -17,3 +17,5 @@ module dynamic;
     $display("Reversed d = %p", d);
    end
    endmodule
+
+   output : Reversed d = '{4, 4, 3, 8, 1, 9}
