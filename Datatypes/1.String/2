@@ -1,5 +1,5 @@
 . module tb;
-  string firstname = "foril";
+  string firstname = "Joey";
   string lastname  = "Joey";
   initial begin
     if (firstname == lastname)
