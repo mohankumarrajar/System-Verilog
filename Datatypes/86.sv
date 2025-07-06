@@ -1,0 +1,14 @@
+module m18;
+  reg a, b;
+  initial begin
+    a = 0;
+    b <= a;
+    #1 $display("a=%0b, b=%0b", a, b);
+  end
+endmodule
+
+
+output :
+
+# KERNEL: a=0, b=0
+# KERNEL: Simulation has finished.
