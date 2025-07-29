@@ -33,4 +33,4 @@ output :
 # KERNEL: addr = 17
 # KERNEL: a = a5
 # KERNEL: name = doo
-# KERNEL: Simulation has finished. 
+  Simulation has finished. 
