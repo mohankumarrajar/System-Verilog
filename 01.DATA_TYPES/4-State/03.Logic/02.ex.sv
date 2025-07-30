@@ -1,23 +1,19 @@
 module tb;
-	logic [3:0]  my_data; 		
-	logic        en; 			
-
-	initial begin
-      $display ("my_data=%d en=%0b", my_data, en);
-		my_data = 4'd3; 								
-      $display ("my_data=%d en=%0b", my_data, en);
-      	#1;
-      $display ("my_data=%d en=%0b", my_data, en);
-	end
-
-  assign en = my_data[0]; 							
-
+  logic [2:0]addr;
+  logic [2:0]data;
+  initial begin
+    $display("initiaal");
+    addr = 3'b101;
+    $display("values of addr = %0b",addr);
+    data = 3'b101;
+    $display("values of data = %0d",data);
+  end
+  
 endmodule
 
 output :
 
-# KERNEL: my_data= x en=x
-# KERNEL: my_data= 3 en=x
-# KERNEL: my_data= 3 en=1
+# KERNEL: values of addr = 101
+# KERNEL: values of data = 5
 # KERNEL: Simulation has finished.
 
