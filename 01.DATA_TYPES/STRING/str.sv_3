@@ -1,0 +1,13 @@
+
+module string_tolower;
+  string str = "SILICON";
+  
+  initial begin
+    $display("string str = %s",str.tolower);
+             end
+             endmodule
+
+output :
+
+string str = silicon
+ Simulation is complete.
