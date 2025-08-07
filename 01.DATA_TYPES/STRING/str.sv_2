@@ -1,0 +1,12 @@
+module string_toupper;
+  string str = "silicon";
+  
+  initial begin
+    $display("string str = %s",str.toupper);
+  end
+endmodule
+
+output :
+
+string str = SILICON
+ Simulation is complete.
