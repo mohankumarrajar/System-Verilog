@@ -1,0 +1,17 @@
+module string_equal;
+  string str = "silicon";
+  string str1 = "silicon";
+  
+  initial begin
+    
+    if(str == str1)
+      $display("str and str1 are pass");
+    else
+      $display("str and str1 are fail");
+  end
+endmodule 
+
+output :
+
+str and str1 are pass
+
