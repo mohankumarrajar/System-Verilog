@@ -1,4 +1,3 @@
-
 module bit_example;
 bit name;
 bit [2:0]addr;
