@@ -3,7 +3,8 @@ bit name;
 bit [2:0]addr;
 
 initial begin
-        $display(" values of the bit ");
+        $display(" values of the bit  ");
+        
 
         $display(" before the bit_example");
         $display(" values of name =%0b , values of addr = %0b",name,addr);
