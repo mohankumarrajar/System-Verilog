@@ -15,6 +15,6 @@ endmodule
 
 OUTPUT :
 
-Before print the data =   0
-After print the data =11001110
+                Before print the data =   0
+                After print the data =11001110
            V C S   S i m u l a t i o n   R e p o r t 
